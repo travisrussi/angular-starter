@@ -1,7 +1,7 @@
 angular-starter
 ===============
 
-Angular starter project with ngBoilerplate, Bootstrap-UI
+Angular starter project with ngBoilerplate, angular-ui Bootstrap
 
 
 ##Original Build Instructions
@@ -10,7 +10,7 @@ Angular starter project with ngBoilerplate, Bootstrap-UI
 ngBoilerplate is the baseline app that gets cloned
 
     $ git clone git://github.com/joshdmiller/ng-boilerplate angular-starter
-    $ cd ng-boilerplate
+    $ cd angular-starter
     $ sudo npm -g install grunt-cli karma bower
     $ npm install
     $ bower install
