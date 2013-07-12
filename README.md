@@ -1,7 +1,7 @@
 angular-starter
 ===============
 
-Angular starter project with ngBoilerplate, angular-ui Bootstrap
+Angular starter project with ngBoilerplate
 
 ##Adding a New Controller to ngBoilerplate
 Adding a new **controller** is pretty straight-forward.  I usually just clone an existing **src/app** folder to get the new **controller** setup.
