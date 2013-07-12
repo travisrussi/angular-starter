@@ -40,7 +40,9 @@ Then run **grunt** using the watch command:
 
     $ grunt watch
 
-Make a change to the HTML and watch the page auto-reload in the browser.
+Make a change to the HTML and watch the page auto-reload in the browser:
+
+    $ open -a TextMate src/.
 
 
 
