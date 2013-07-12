@@ -34,7 +34,7 @@ Launch the baseline application:
 
 ###Using LiveReload for real-time rebuilding and refreshing of HTML page
 
-To enable LiveReload, install the Chrome extension:
+To enable LiveReload, install the Chrome extension.  Make sure to **Allow access to file URLs** in the extention's settings if you are running the HTML file from a local **file://** path.
 
     https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei
 
