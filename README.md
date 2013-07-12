@@ -41,6 +41,10 @@ To enable LiveReload, install the Chrome extension:
 Then run **grunt** using the watch command:
 
     $ grunt watch
+    
+If running **grunt watch** throws this error, find and kill any **node** processes:
+
+    Fatal error: Port 35729 is already in use by another process.
 
 Make a change to the HTML and watch the page auto-reload in the browser:
 
