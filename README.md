@@ -23,7 +23,7 @@ Replace all instances of **home** with **contact** in the files:
     $ sed -i '' 's/home/contact/g' *.*
     $ sed -i '' 's/Home/Contact/g' *.*
     
-In the **app.js** file, add a reference to **ngBoilerplate.contact** in the module definition on line 6:
+In the **src/app/app.js** file, add a reference to **ngBoilerplate.contact** in the module definition on line 6:
 
     angular.module( 'ngBoilerplate', [
       'templates-app',
@@ -35,7 +35,7 @@ In the **app.js** file, add a reference to **ngBoilerplate.contact** in the modu
       'ui.route'
     ])
     
-To see the change, edit the **index.html** file's header to link to the new **contact** page we just created.  On line 58, add this:
+To see the change, edit the **index.html** file's navigation bar to link to the new **contact** page we just created.  On line 58, add this:
 
     <li ui-route="/contact" ng-class="{active:$uiRoute}">
         <a href="#/contact">
@@ -44,7 +44,7 @@ To see the change, edit the **index.html** file's header to link to the new **co
         </a>
     </li>
 
-Lastly, edit the **contact.tpl.html** file, so it's different than the cloned **home** page:
+Lastly, edit the **src/app/contact/contact.tpl.html** file, so it's different than the cloned **home** page:
 
      <h1>My New Contact Page Rocks!</h1>
 
