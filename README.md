@@ -50,6 +50,7 @@ Make a change to the HTML and watch the page auto-reload in the browser:
 
     $ open -a TextMate src/.
 
+If you add a new **controller** to the **src** folder, the **grunt watch** won't usually pick that up.  You'll need to restart the **grunt watch** command.
 
 
 
