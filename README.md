@@ -20,13 +20,13 @@ ngBoilerplate is the baseline app that gets cloned
 
 The ngBoilerplate includes these bower packages:
 
-*git://github.com/angular/bower-angular-mocks.git
-*git://github.com/angular-ui/bootstrap-bower.git
-*git://github.com/twitter/bootstrap.git
-*git://github.com/angular/bower-angular.git
-*git://github.com/twitter/bootstrap.git
-*git://github.com/angular-ui/ui-router
-*git://github.com/angular-ui/ui-utils.git
+* git://github.com/angular/bower-angular-mocks.git
+* git://github.com/angular-ui/bootstrap-bower.git
+* git://github.com/twitter/bootstrap.git
+* git://github.com/angular/bower-angular.git
+* git://github.com/twitter/bootstrap.git
+* git://github.com/angular-ui/ui-router
+* git://github.com/angular-ui/ui-utils.git
 
 
 
