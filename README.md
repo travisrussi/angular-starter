@@ -28,11 +28,11 @@ The ngBoilerplate bower configuration installs these packages:
 * bootstrap#2.3.2
 * jquery#1.8.3
 
-###Using LiveReload for real-time rebuilding and refreshing of HTML page
-
 Launch the baseline application:
 
     $ open ./build/index.html
+
+###Using LiveReload for real-time rebuilding and refreshing of HTML page
 
 To enable LiveReload, install the Chrome extension:
 
