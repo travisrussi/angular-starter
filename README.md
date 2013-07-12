@@ -18,15 +18,30 @@ ngBoilerplate is the baseline app that gets cloned
     $ bower install
     $ grunt build
 
-The ngBoilerplate includes these bower packages:
+The ngBoilerplate bower configuration installs these packages:
+ 
+* angular-bootstrap#0.3.0
+* angular#1.0.7
+* angular-mocks#1.0.7
+* angular-ui-router#0.0.1
+* angular-ui-utils#0.0.4
+* bootstrap#2.3.2
+* jquery#1.8.3
 
-* git://github.com/angular/bower-angular-mocks.git
-* git://github.com/angular-ui/bootstrap-bower.git
-* git://github.com/twitter/bootstrap.git
-* git://github.com/angular/bower-angular.git
-* git://github.com/twitter/bootstrap.git
-* git://github.com/angular-ui/ui-router
-* git://github.com/angular-ui/ui-utils.git
+Launch the baseline application:
+
+    $ open ./build/index.html
+
+To enable LiveReload, install the Chrome extension:
+
+    https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei
+
+Then run **grunt** using the watch command:
+
+    $ grunt watch
+
+Make a change to the HTML and watch the page auto-reload in the browser.
+
 
 
 
